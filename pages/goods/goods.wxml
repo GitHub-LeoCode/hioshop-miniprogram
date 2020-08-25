@@ -38,12 +38,12 @@
         </view>
     </view>
     <view class='price-info'>
-        <!-- <view class="l">
+        <view class="l">
             <view class="now-price">
                 <view class="sym">¥</view>
                 <view class="num">{{goods.retail_price}}</view>
             </view>
-        </view> -->
+        </view>
         <view class="r">
             <view class='stock'>库存{{goods.goods_number}}</view>
             <view class='sales'>已售{{goods.sell_volume}}份</view>
