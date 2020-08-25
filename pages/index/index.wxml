@@ -83,11 +83,11 @@
                         </view>
                         <view class="goods-info {{iitem.goods_number <= 0?'fast-out-status':''}}">
                             <view class="goods-title">{{iitem.name}}</view>
-                            <view class='price-container'>
+                            <!-- <view class='price-container'>
                                 <view class='l'>
                                     <view class='h'>￥{{iitem.min_retail_price}}</view>
                                 </view>
-                            </view>
+                            </view> -->
                         </view>
                     </navigator>
                 </view>
